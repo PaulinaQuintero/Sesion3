@@ -11,8 +11,37 @@
     align-items:center;
 }
 
-.item-article {
-    width: 30%;
-    height: 100px;
-    background-color: rgb(255, 143, 249);
-}
+
+.section1 h3 {
+    font-family: "sans-serif";
+    line-height: 48px;
+    color: #025157;
+  }
+  
+  .section1 > p {
+    font-size: 20px;
+    color: #343434;
+    line-height: 2.5;
+    margin-bottom: 20px;
+  }
+  
+  .section1 > form {
+    display: flex;
+  }
+
+  button {
+      background-color: #67b54b;
+      color: #ffffff;
+  }
+
+  .my-video {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .my-video img {
+    width: 100px;
+    margin-top: 5px;
+
+  }
+  
